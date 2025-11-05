@@ -4,6 +4,16 @@ header {
 }
 
 body {
+  background-color: #fff;
+  color: var(--dark);
+  line-height: 1.6;
+}
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 100
 }

@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { Component } from './com'
+import Component from './Component'
+import Servis from './Servis'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,6 +9,7 @@ function App() {
   return (
     <div>
        <Component/>
+       <Servis/>
     </div>
   )
 }
